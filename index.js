@@ -3,7 +3,8 @@ module.exports = function (cooking) {
   // add loader
   cooking.add('loader.yaml', {
     test: /\.yaml$/,
-    loaders: ['yaml-loader']
+    exclude: /node_modules|bower_components/,
+    loaders: ['json-loader', 'yaml-loader']
   });
 
   // add extension
