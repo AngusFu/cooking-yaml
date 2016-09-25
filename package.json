@@ -1,0 +1,26 @@
+{
+  "name": "cooking-yaml",
+  "version": "1.0.0",
+  "description": "cooking yaml loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngusFu/cooking-yaml.git"
+  },
+  "keywords": [
+    "yaml",
+    "cooking"
+  ],
+  "author": "angusfu1126@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngusFu/cooking-yaml/issues"
+  },
+  "homepage": "https://github.com/AngusFu/cooking-yaml#readme",
+  "dependencies": {
+    "yaml-loader": "^0.4.0"
+  }
+}
